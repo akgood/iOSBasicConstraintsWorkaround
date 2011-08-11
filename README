@@ -1,0 +1,40 @@
+CertVerifyDemo:
+
+OpenSSL-based workaround for iOS basicConstraints certificate
+validation vulnerability (CVE-2011-0228, a.k.a. TWSL2001-007)
+
+-----
+
+This project was built with XCode 4.02 and iOS SDK 4.3. It may work
+with previous versions of either, but it's not guaranteed.
+
+You can either build and run the sample app in the iPhone simulator,
+or deploy it to a device. Under the iOS 4.3 SDK - and presumably,
+earlier versions - the simulator contains the same vulnerability as
+unpatched devices.
+
+In the sample app, you can enter a URL and attempt to request it. The
+text view at the bottom shows the result of the request. (It is not a
+webview; for successful requests it just prints out the raw data
+received).
+
+The sample app uses a custom NSURLConnectionDelegate to override the
+certificate verification that the system would otherwise use. The code
+in CertVerifyURLConnectionDelegate might be appropriate for reuse;
+everything else is glue for this specific demo.
+
+On a certificate-validation failure, you will see a very generic error
+message in the text view. (See the code for an explanation and some
+suggestions for improvement.)
+
+We built OpenSSL libraries for iOS and added them to the XCode project
+by following the instructions at:
+
+http://www.x2on.de/2010/07/13/tutorial-iphone-app-with-compiled-openssl-1-0-0a-library/
+
+Finally, to ensure compliance with OpenSSL's license terms:
+
+* This product includes software developed by the OpenSSL Project
+  for use in the OpenSSL Toolkit. (http://www.openssl.org/)
+* This product includes cryptographic software written by
+  Eric Young (eay@cryptsoft.com)

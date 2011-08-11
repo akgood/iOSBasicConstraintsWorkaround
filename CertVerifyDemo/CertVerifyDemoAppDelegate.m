@@ -10,6 +10,9 @@
 
 #import "CertVerifyDemoViewController.h"
 
+#import <openssl/evp.h>
+#import <openssl/err.h>
+
 @implementation CertVerifyDemoAppDelegate
 
 
@@ -20,7 +23,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    OpenSSL_add_all_algorithms();
+    ERR_load_crypto_strings();
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
