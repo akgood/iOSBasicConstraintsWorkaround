@@ -32,6 +32,15 @@ by following the instructions at:
 
 http://www.x2on.de/2010/07/13/tutorial-iphone-app-with-compiled-openssl-1-0-0a-library/
 
+Also, take note of the initialization functions called in the app
+delegate:
+
+    OpenSSL_add_all_algorithms();
+    ERR_load_crypto_strings();
+
+If you don't call these before attempting to use OpenSSL code, then 
+things will probably fail in mysterious ways.
+
 Finally, to ensure compliance with OpenSSL's license terms:
 
 * This product includes software developed by the OpenSSL Project
