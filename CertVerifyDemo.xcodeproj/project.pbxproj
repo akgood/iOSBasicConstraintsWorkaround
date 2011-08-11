@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8FAF2AF13F43634004D2ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FAF2AE13F43634004D2ACE /* UIKit.framework */; };
+		B8FAF2B113F43634004D2ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FAF2B013F43634004D2ACE /* Foundation.framework */; };
+		B8FAF2B313F43634004D2ACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FAF2B213F43634004D2ACE /* CoreGraphics.framework */; };
+		B8FAF2B913F43634004D2ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8FAF2B713F43634004D2ACE /* InfoPlist.strings */; };
+		B8FAF2BC13F43634004D2ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FAF2BB13F43634004D2ACE /* main.m */; };
+		B8FAF2BF13F43634004D2ACE /* CertVerifyDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FAF2BE13F43634004D2ACE /* CertVerifyDemoAppDelegate.m */; };
+		B8FAF2C213F43634004D2ACE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FAF2C013F43634004D2ACE /* MainWindow.xib */; };
+		B8FAF2C513F43634004D2ACE /* CertVerifyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FAF2C413F43634004D2ACE /* CertVerifyDemoViewController.m */; };
+		B8FAF2C813F43634004D2ACE /* CertVerifyDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FAF2C613F43634004D2ACE /* CertVerifyDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8FAF2AA13F43634004D2ACE /* CertVerifyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertVerifyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FAF2AE13F43634004D2ACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8FAF2B013F43634004D2ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8FAF2B213F43634004D2ACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8FAF2B613F43634004D2ACE /* CertVerifyDemo-Info.plist */ = {isa = PBXFileReference; path = "CertVerifyDemo-Info.plist"; sourceTree = "<group>"; };
+		B8FAF2B813F43634004D2ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8FAF2BA13F43634004D2ACE /* CertVerifyDemo-Prefix.pch */ = {isa = PBXFileReference; path = "CertVerifyDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B8FAF2BB13F43634004D2ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8FAF2BD13F43634004D2ACE /* CertVerifyDemoAppDelegate.h */ = {isa = PBXFileReference; path = CertVerifyDemoAppDelegate.h; sourceTree = "<group>"; };
+		B8FAF2BE13F43634004D2ACE /* CertVerifyDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CertVerifyDemoAppDelegate.m; sourceTree = "<group>"; };
+		B8FAF2C113F43634004D2ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B8FAF2C313F43634004D2ACE /* CertVerifyDemoViewController.h */ = {isa = PBXFileReference; path = CertVerifyDemoViewController.h; sourceTree = "<group>"; };
+		B8FAF2C413F43634004D2ACE /* CertVerifyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CertVerifyDemoViewController.m; sourceTree = "<group>"; };
+		B8FAF2C713F43634004D2ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CertVerifyDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8FAF2A713F43634004D2ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FAF2AF13F43634004D2ACE /* UIKit.framework in Frameworks */,
+				B8FAF2B113F43634004D2ACE /* Foundation.framework in Frameworks */,
+				B8FAF2B313F43634004D2ACE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8FAF29F13F43634004D2ACE = {
+			isa = PBXGroup;
+			children = (
+				B8FAF2B413F43634004D2ACE /* CertVerifyDemo */,
+				B8FAF2AD13F43634004D2ACE /* Frameworks */,
+				B8FAF2AB13F43634004D2ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8FAF2AB13F43634004D2ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FAF2AA13F43634004D2ACE /* CertVerifyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8FAF2AD13F43634004D2ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8FAF2AE13F43634004D2ACE /* UIKit.framework */,
+				B8FAF2B013F43634004D2ACE /* Foundation.framework */,
+				B8FAF2B213F43634004D2ACE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8FAF2B413F43634004D2ACE /* CertVerifyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B8FAF2BD13F43634004D2ACE /* CertVerifyDemoAppDelegate.h */,
+				B8FAF2BE13F43634004D2ACE /* CertVerifyDemoAppDelegate.m */,
+				B8FAF2C013F43634004D2ACE /* MainWindow.xib */,
+				B8FAF2C313F43634004D2ACE /* CertVerifyDemoViewController.h */,
+				B8FAF2C413F43634004D2ACE /* CertVerifyDemoViewController.m */,
+				B8FAF2C613F43634004D2ACE /* CertVerifyDemoViewController.xib */,
+				B8FAF2B513F43634004D2ACE /* Supporting Files */,
+			);
+			path = CertVerifyDemo;
+			sourceTree = "<group>";
+		};
+		B8FAF2B513F43634004D2ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8FAF2B613F43634004D2ACE /* CertVerifyDemo-Info.plist */,
+				B8FAF2B713F43634004D2ACE /* InfoPlist.strings */,
+				B8FAF2BA13F43634004D2ACE /* CertVerifyDemo-Prefix.pch */,
+				B8FAF2BB13F43634004D2ACE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8FAF2A913F43634004D2ACE /* CertVerifyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FAF2CB13F43634004D2ACE /* Build configuration list for PBXNativeTarget "CertVerifyDemo" */;
+			buildPhases = (
+				B8FAF2A613F43634004D2ACE /* Sources */,
+				B8FAF2A713F43634004D2ACE /* Frameworks */,
+				B8FAF2A813F43634004D2ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CertVerifyDemo;
+			productName = CertVerifyDemo;
+			productReference = B8FAF2AA13F43634004D2ACE /* CertVerifyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FAF2A113F43634004D2ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Duo Security";
+			};
+			buildConfigurationList = B8FAF2A413F43634004D2ACE /* Build configuration list for PBXProject "CertVerifyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8FAF29F13F43634004D2ACE;
+			productRefGroup = B8FAF2AB13F43634004D2ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FAF2A913F43634004D2ACE /* CertVerifyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8FAF2A813F43634004D2ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FAF2B913F43634004D2ACE /* InfoPlist.strings in Resources */,
+				B8FAF2C213F43634004D2ACE /* MainWindow.xib in Resources */,
+				B8FAF2C813F43634004D2ACE /* CertVerifyDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FAF2A613F43634004D2ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FAF2BC13F43634004D2ACE /* main.m in Sources */,
+				B8FAF2BF13F43634004D2ACE /* CertVerifyDemoAppDelegate.m in Sources */,
+				B8FAF2C513F43634004D2ACE /* CertVerifyDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8FAF2B713F43634004D2ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FAF2B813F43634004D2ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8FAF2C013F43634004D2ACE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FAF2C113F43634004D2ACE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B8FAF2C613F43634004D2ACE /* CertVerifyDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FAF2C713F43634004D2ACE /* en */,
+			);
+			name = CertVerifyDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8FAF2C913F43634004D2ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8FAF2CA13F43634004D2ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B8FAF2CC13F43634004D2ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CertVerifyDemo/CertVerifyDemo-Prefix.pch";
+				INFOPLIST_FILE = "CertVerifyDemo/CertVerifyDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8FAF2CD13F43634004D2ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CertVerifyDemo/CertVerifyDemo-Prefix.pch";
+				INFOPLIST_FILE = "CertVerifyDemo/CertVerifyDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8FAF2A413F43634004D2ACE /* Build configuration list for PBXProject "CertVerifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FAF2C913F43634004D2ACE /* Debug */,
+				B8FAF2CA13F43634004D2ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FAF2CB13F43634004D2ACE /* Build configuration list for PBXNativeTarget "CertVerifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FAF2CC13F43634004D2ACE /* Debug */,
+				B8FAF2CD13F43634004D2ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FAF2A113F43634004D2ACE /* Project object */;
+}
