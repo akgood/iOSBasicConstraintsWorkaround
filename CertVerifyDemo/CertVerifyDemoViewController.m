@@ -148,7 +148,6 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
-    // attempt to decode data
     [receivedData appendData:data];
 }
 
